@@ -2,7 +2,8 @@
 # Bank Management System
 
 ## Overview
-The Bank Management System is a software application that facilitates the management of banking operations, including customer accounts, transactions, and administrative tasks.
+The Bank Management System is a software application that facilitates the management of banking operations, including customer accounts, transactions, and administrative tasks. 
+
 
 ## Features
 - **Customer Management**: Allows the creation, modification, and deletion of customer accounts.

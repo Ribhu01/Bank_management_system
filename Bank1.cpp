@@ -39,21 +39,13 @@ void Bank :: balance()
    cout<<"\nAvailable balance - " <<amount;
 }
 int main(){
-    
-        char ch1,ch2,ch3,ch4;
-        int count =4;
+    string s;
+    int count=4;;
         clrscr();
   while(count !=0){
         cout<<"\nEnter pin- ";
-        ch1=getchar();
-        
-        ch2=getchar();
-       
-        ch3=getchar();
-       
-        ch4=getchar();
-       
-        if (ch1 =='1' && ch2=='2'&& ch3 =='3' && ch4=='4'){
+       cin>>s;
+        if (s=="1234"){
           break;
           }else{
             count--;
@@ -64,7 +56,7 @@ int main(){
         cout<<"\nYour acount is blocked for 24 hours.";
         cout<<endl;
     }
-if (ch1 =='1' && ch2=='2'&& ch3 =='3' && ch4=='4'){
+if (s=="1234"){
 
     int Chosen,amt;
     Bank c1;
